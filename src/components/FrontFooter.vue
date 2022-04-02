@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark py-4">
+  <div class="bg-dark pt-6 pb-4">
     <div class="container">
       <a class="text-white h1 logo text-decoration-none" href="#">Max</a>
       <div
@@ -40,10 +40,10 @@
           text-white
         "
       >
-        <p class="mb-0 fs-8 text-secondary">
+        <p class="mb-0 text-secondary">
           Copyright © 2022 Jasper. All rights reserved.
         </p>
-        <p class="mb-0 fs-8 text-secondary">( 僅個人作品練習,無商業用途 ) / <router-link class="text-secondary text-decoration-none" to="/login">登入後台</router-link></p>
+        <p class="mb-0 text-secondary">( 僅個人作品練習,無商業用途 ) / <router-link class="text-secondary text-decoration-none" to="/login">登入後台</router-link></p>
       </div>
     </div>
   </div>

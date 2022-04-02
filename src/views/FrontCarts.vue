@@ -2,7 +2,7 @@
   <div class="container">
     <Loading :active="isLoading" :z-index="1060"></Loading>
     <div class="pt-3 pb-5">
-      <h3 class="mt-3 mb-4">購物車</h3>
+      <h3 class="mt-3 mb-4 fw-bold">購物車</h3>
       <div class="row">
         <div class="col-md-8">
           <table class="table">
@@ -20,8 +20,9 @@
                 v-for="item in cartData.carts"
                 :key="item.id"
               >
-                <th scope="row" class="border-0 px-0 font-weight-normal py-4">
-                  <div class="row">
+                <td class="border-0 px-0 py-4">
+
+                  <div class="row d-flex align-items-center">
                     <div class="col-md-5">
                       <img
                         :src="item.product.imageUrl"
@@ -31,12 +32,12 @@
                       />
                     </div>
                     <div class="col-md-7">
-                      <p class="flex-wrap">
+                      <p class="">
                         {{ item.product.title }}
                       </p>
                     </div>
                   </div>
-                </th>
+                </td>
                 <td class="border-0 align-middle" style="max-width: 160px">
                   <div class="d-flex flex-nowrap align-items-center">
                     <button
@@ -103,10 +104,10 @@
                 "
               >
                 <span
-                  v-if="!useCoupon || cartData.final_total == cartData.total"
-                  >套用優惠券</span
+                  v-if="useCoupon || cartData.final_total !== cartData.total"
+                  >已套用優惠券</span
                 >
-                <span v-else>已套用優惠券</span>
+                <span v-else>套用優惠券</span>
               </button>
             </div>
           </div>

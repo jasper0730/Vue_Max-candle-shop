@@ -1,10 +1,10 @@
 <template>
   <div class="container text-center">
-    <h3 class="pt-3 pb-5">商店介紹</h3>
+    <h3 class="py-3 fw-bold">商店介紹</h3>
     <h1 class="logo">Max</h1>
-    <div class="fs-7 text-muted">
-      <p class="lh-lg fw-bold">
-        <span class="fst-italic">" 我有故事，你有蠟燭嗎? "</span>
+    <div class="text-muted">
+      <p class="lh-lg ">
+        <span class="fst-italic fw-bold">" 我有故事，你有蠟燭嗎? "</span>
         <br />
         是的，我們賣的不只是一個有香味的蠟燭，我們希望透過各種不同的香味，
         <br />
@@ -18,7 +18,7 @@
       style="height: 300px; object-position: bottom"
     />
     <div class="mt-3 mb-7">
-      <div class="fs-7 text-muted">
+      <div class="text-muted">
         <p class="lh-lg">
           香氛令人上癮，
           <br />
@@ -29,7 +29,7 @@
           點上喜歡的香氛蠟燭，再配一杯葡萄酒，就是一種享受。
         </p>
       </div>
-      <div class="mt-3 text-muted fs-7">
+      <div class="mt-3 text-muted">
         <p class="lh-lg">
           喜歡香氛蠟燭往往是品味細緻、喜歡享受生活的人。
           <br />
@@ -40,7 +40,7 @@
           網羅世界美的品牌，有香氛、蠟燭及葡萄酒，相信這些精緻的商品可以讓生活更享受、有質感，也更溫暖。
         </p>
       </div>
-      <div class="mt-3 text-muted fs-7">
+      <div class="mt-3 text-muted">
         <p class="lh-lg">
           我們的想法簡單又單純，即是以最好的天然成分搭配簡約的設計風格，創作出有美麗香味的產品。
           <br />

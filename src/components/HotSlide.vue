@@ -1,7 +1,7 @@
 <template>
   <div class="pb-3 container">
     <Loading :active="isLoading" :z-index="1060"></Loading>
-    <h3 class="text-center mb-3">熱銷商品</h3>
+    <h3 class="text-center mb-3 fw-bold">熱銷商品</h3>
     <div>
       <swiper
         :slides-per-view="3"

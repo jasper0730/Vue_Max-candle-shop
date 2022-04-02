@@ -18,17 +18,17 @@
         id="navbarNavAltMarkup"
       >
         <div class="navbar-nav align-items-center">
-          <router-link class="nav-item nav-link ms-3" to="/admin/products"
+          <router-link class="nav-item nav-link ms-3 h5" to="/admin/products"
           
             >產品</router-link
           >
-          <router-link class="nav-item nav-link ms-3" to="/admin/orders"
+          <router-link class="nav-item nav-link ms-3 h5" to="/admin/orders"
             >訂單</router-link
           >
-          <router-link class="nav-item nav-link ms-3" to="/admin/coupons"
+          <router-link class="nav-item nav-link ms-3 h5" to="/admin/coupons"
             >優惠券</router-link
           >
-          <a class="nav-item nav-link ms-3" href="#" @click.prevent="$emit('logout')"
+          <a class="nav-item nav-link ms-3 h5" href="#" @click.prevent="$emit('logout')"
               >登出</a
             >
         </div>

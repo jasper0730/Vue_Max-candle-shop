@@ -1,7 +1,7 @@
 <template>
   <div class="sticky-top bg-light ">
     <nav class="container navbar navbar-expand-lg navbar-light">
-      <a class="logo navbar-brand fs-1" href="..\views\FrontView.vue">Max</a>
+      <router-link class="logo navbar-brand fs-1" to="/">Max</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -18,19 +18,19 @@
         id="navbarNavAltMarkup"
       >
         <div class="navbar-nav align-items-center">
-          <router-link class="nav-item nav-link me-3" to="/brand"
+          <router-link class="nav-item nav-link me-3 h5" to="/brand"
             >品牌</router-link
           >
-          <router-link class="nav-item nav-link me-3" to="/products"
+          <router-link class="nav-item nav-link me-3 h5" to="/products"
             >香氛蠟燭</router-link
           >
-          <router-link class="nav-item nav-link me-3" to="/questions"
+          <router-link class="nav-item nav-link me-3 h5" to="/questions"
             >常見問題</router-link
           >
-          <router-link class="nav-item nav-link me-3 d-lg-none" to="/carts"
+          <router-link class="nav-item nav-link me-3 d-lg-none h5" to="/carts"
             >購物車</router-link
           >
-          <router-link class="nav-item nav-link position-relative d-none d-lg-block" to="/carts"
+          <router-link class="nav-item nav-link position-relative d-none d-lg-block h5" to="/carts"
             ><i class="bi bi-bag fs-5"
               ><span
                 class="

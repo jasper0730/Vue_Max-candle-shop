@@ -13,12 +13,12 @@
           alt="..."
         />
         <div class="carousel-caption d-none d-md-block">
-          <a
-            class="btn btn-outline-light btn-lg fs-8 px-7 py-2"
-            href="../views/src/views/src/views/FrontProducts.vue#/products"
+          <router-link
+            class="btn btn-outline-light px-7 py-2"
+            to="/products"
           >
             立即選購
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="carousel-item">
@@ -29,12 +29,12 @@
           alt="..."
         />
         <div class="carousel-caption d-none d-md-block">
-          <a
-            class="btn btn-outline-light btn-lg fs-8 px-7 py-2"
-            href="../views/src/views/src/views/FrontProducts.vue#/products"
+          <router-link
+            class="btn btn-outline-light px-7 py-2"
+            to="/products"
           >
             立即選購
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="carousel-item">
@@ -45,12 +45,12 @@
           alt="..."
         />
         <div class="carousel-caption d-none d-md-block">
-          <a
-            class="btn btn-outline-light btn-lg fs-8 px-7 py-2"
-            href="../views/src/views/src/views/FrontProducts.vue#/products"
+          <router-link
+            class="btn btn-outline-light px-7 py-2"
+            to="/products"
           >
             立即選購
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -76,8 +76,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-6 text-center">
-        <h3 class="h5 my-5">
-          歡迎光臨<span class="logo"> Max </span>香氛蠟燭專賣
+        <h3 class="my-5 fw-bold">
+          歡迎光臨<span class="logo"> Max </span>香氛蠟燭
         </h3>
         <p class="fst-italic">" 我有故事，你有蠟燭嗎? "</p>
         <p>
@@ -96,7 +96,7 @@
           />
         </div>
         <div class="col-md-4 m-auto text-center">
-          <h4 class="mt-4 mb-3 h5">我們的堅持</h4>
+          <h4 class="mt-4 mb-4 h4 fw-bold">我們的堅持</h4>
           <p>
             <span class="logo">Max</span
             >蠟燭追求的不只是帶給您香味，我們重視的是您全方位的感受。
@@ -117,8 +117,8 @@
           />
         </div>
         <div class="col-md-4 m-auto text-center">
-          <h4 class="mt-4 h5 mb-3">香氛之旅</h4>
-          <p>您發現了嗎?</p>
+          <h4 class="mt-4 h4 mb-4 fw-bold">浪漫的香氛之旅</h4>
+          <p>發現了嗎?</p>
           <p>
             我們的蠟燭的名字是不是都很熟悉呢，我們將製作的材料、產品的風格，與國家及各地風情做結合，當您點燃了我們的蠟燭，就像帶您的走了一趟精彩的旅程。
           </p>

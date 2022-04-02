@@ -1,20 +1,69 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "../views/Home.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    component: () =>
+      import("../views/FrontView.vue"),
+    children: [
+      {
+        path: "/",
+        component: () =>
+          import("../views/FrontIndex.vue"),
+      },
+      {
+        path: "products",
+        component: () =>
+          import("../views/FrontProducts.vue"),
+      },
+      {
+        path: "brand",
+        component: () =>
+          import("../views/FrontBrand.vue"),
+      },
+      {
+        path: "questions",
+        component: () =>
+          import("../views/FrontQuestions.vue"),
+      },
+      {
+        path: "carts",
+        component: () =>
+          import("../views/FrontCarts.vue"),
+      },
+      {
+        path: "check",
+        component: () =>
+          import("../views/FrontCheckOut.vue"),
+      },
+    ]
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: "/admin",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+      import("../views/AdminView.vue"),
+    children: [
+      {
+        path: "orders",
+        component: () =>
+          import("../views/AdminOrders.vue"),
+      },
+      {
+        path: "products",
+        component: () =>
+          import("../views/AdminProducts.vue"),
+      },
+      {
+        path: "coupons",
+        component: () =>
+          import("../views/AdminCoupons.vue"),
+      },
+    ]
+  },
+  {
+    path: "/login",
+    component: () =>
+      import("../views/LoginView.vue"),
   },
 ];
 

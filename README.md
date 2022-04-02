@@ -1,6 +1,6 @@
 Vue_Max-candle-shop
 
-Github pages: https://jasper0730.github.io/Vue_Max-candle-shop/
+Git pages: https://jasper0730.github.io/Vue_Max-candle-shop/
 
 架設路由--V
 
